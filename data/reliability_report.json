@@ -1,0 +1,12 @@
+{
+  "days_requested": 7,
+  "timesteps_completed": 672,
+  "expected_timesteps": 672,
+  "completed_without_exception": true,
+  "safety_invariant_failures": 0,
+  "strategic_decisions": 336,
+  "mcp_tool_calls": 1008,
+  "simulation_engine": "physics-lite surrogate",
+  "controller": "deterministic_fallback",
+  "final_cumulative_kwh": 312.544
+}

@@ -1,0 +1,1490 @@
+[
+  {
+    "sim_minute": 0,
+    "controller": "deterministic_fallback",
+    "llm_status": "Ollama unavailable (URLError)",
+    "state": {
+      "engine": "physics-lite surrogate",
+      "sim_minute": 0,
+      "hour_of_day": 0.0,
+      "zone_temp_c": 22.0,
+      "outdoor_temp_c": 23.0,
+      "occupancy_fraction": 0.05,
+      "pmv": -0.16,
+      "cooling_setpoint": 23.0,
+      "heating_setpoint": 21.0,
+      "fan_flow_fraction": 1.0,
+      "instantaneous_kw": 0.0,
+      "cumulative_kwh": 0.0
+    },
+    "decision": {
+      "cooling_setpoint": 27.5,
+      "heating_setpoint": 16.5,
+      "fan_flow_fraction": 0.3,
+      "rationale": "Fallback: unoccupied setback."
+    },
+    "applied": {
+      "applied_cooling_setpoint": 27.5,
+      "applied_heating_setpoint": 16.5,
+      "applied_fan_flow_fraction": 0.3,
+      "rationale": "Fallback: unoccupied setback."
+    }
+  },
+  {
+    "sim_minute": 30,
+    "controller": "deterministic_fallback",
+    "llm_status": "Ollama unavailable (URLError)",
+    "state": {
+      "engine": "physics-lite surrogate",
+      "sim_minute": 30,
+      "hour_of_day": 0.5,
+      "zone_temp_c": 22.09,
+      "outdoor_temp_c": 23.05,
+      "occupancy_fraction": 0.05,
+      "pmv": -0.13,
+      "cooling_setpoint": 27.5,
+      "heating_setpoint": 16.5,
+      "fan_flow_fraction": 0.3,
+      "instantaneous_kw": 0.02,
+      "cumulative_kwh": 0.01
+    },
+    "decision": {
+      "cooling_setpoint": 27.5,
+      "heating_setpoint": 16.5,
+      "fan_flow_fraction": 0.3,
+      "rationale": "Fallback: unoccupied setback."
+    },
+    "applied": {
+      "applied_cooling_setpoint": 27.5,
+      "applied_heating_setpoint": 16.5,
+      "applied_fan_flow_fraction": 0.3,
+      "rationale": "Fallback: unoccupied setback."
+    }
+  },
+  {
+    "sim_minute": 60,
+    "controller": "deterministic_fallback",
+    "llm_status": "Ollama unavailable (URLError)",
+    "state": {
+      "engine": "physics-lite surrogate",
+      "sim_minute": 60,
+      "hour_of_day": 1.0,
+      "zone_temp_c": 22.2,
+      "outdoor_temp_c": 23.2,
+      "occupancy_fraction": 0.05,
+      "pmv": -0.1,
+      "cooling_setpoint": 27.5,
+      "heating_setpoint": 16.5,
+      "fan_flow_fraction": 0.3,
+      "instantaneous_kw": 0.02,
+      "cumulative_kwh": 0.02
+    },
+    "decision": {
+      "cooling_setpoint": 27.5,
+      "heating_setpoint": 16.5,
+      "fan_flow_fraction": 0.3,
+      "rationale": "Fallback: unoccupied setback."
+    },
+    "applied": {
+      "applied_cooling_setpoint": 27.5,
+      "applied_heating_setpoint": 16.5,
+      "applied_fan_flow_fraction": 0.3,
+      "rationale": "Fallback: unoccupied setback."
+    }
+  },
+  {
+    "sim_minute": 90,
+    "controller": "deterministic_fallback",
+    "llm_status": "Ollama unavailable (URLError)",
+    "state": {
+      "engine": "physics-lite surrogate",
+      "sim_minute": 90,
+      "hour_of_day": 1.5,
+      "zone_temp_c": 22.32,
+      "outdoor_temp_c": 23.46,
+      "occupancy_fraction": 0.05,
+      "pmv": -0.06,
+      "cooling_setpoint": 27.5,
+      "heating_setpoint": 16.5,
+      "fan_flow_fraction": 0.3,
+      "instantaneous_kw": 0.02,
+      "cumulative_kwh": 0.03
+    },
+    "decision": {
+      "cooling_setpoint": 27.5,
+      "heating_setpoint": 16.5,
+      "fan_flow_fraction": 0.3,
+      "rationale": "Fallback: unoccupied setback."
+    },
+    "applied": {
+      "applied_cooling_setpoint": 27.5,
+      "applied_heating_setpoint": 16.5,
+      "applied_fan_flow_fraction": 0.3,
+      "rationale": "Fallback: unoccupied setback."
+    }
+  },
+  {
+    "sim_minute": 120,
+    "controller": "deterministic_fallback",
+    "llm_status": "Ollama unavailable (URLError)",
+    "state": {
+      "engine": "physics-lite surrogate",
+      "sim_minute": 120,
+      "hour_of_day": 2.0,
+      "zone_temp_c": 22.44,
+      "outdoor_temp_c": 23.8,
+      "occupancy_fraction": 0.05,
+      "pmv": -0.02,
+      "cooling_setpoint": 27.5,
+      "heating_setpoint": 16.5,
+      "fan_flow_fraction": 0.3,
+      "instantaneous_kw": 0.02,
+      "cumulative_kwh": 0.04
+    },
+    "decision": {
+      "cooling_setpoint": 27.5,
+      "heating_setpoint": 16.5,
+      "fan_flow_fraction": 0.3,
+      "rationale": "Fallback: unoccupied setback."
+    },
+    "applied": {
+      "applied_cooling_setpoint": 27.5,
+      "applied_heating_setpoint": 16.5,
+      "applied_fan_flow_fraction": 0.3,
+      "rationale": "Fallback: unoccupied setback."
+    }
+  },
+  {
+    "sim_minute": 150,
+    "controller": "deterministic_fallback",
+    "llm_status": "Ollama unavailable (URLError)",
+    "state": {
+      "engine": "physics-lite surrogate",
+      "sim_minute": 150,
+      "hour_of_day": 2.5,
+      "zone_temp_c": 22.58,
+      "outdoor_temp_c": 24.24,
+      "occupancy_fraction": 0.05,
+      "pmv": 0.03,
+      "cooling_setpoint": 27.5,
+      "heating_setpoint": 16.5,
+      "fan_flow_fraction": 0.3,
+      "instantaneous_kw": 0.02,
+      "cumulative_kwh": 0.051
+    },
+    "decision": {
+      "cooling_setpoint": 27.5,
+      "heating_setpoint": 16.5,
+      "fan_flow_fraction": 0.3,
+      "rationale": "Fallback: unoccupied setback."
+    },
+    "applied": {
+      "applied_cooling_setpoint": 27.5,
+      "applied_heating_setpoint": 16.5,
+      "applied_fan_flow_fraction": 0.3,
+      "rationale": "Fallback: unoccupied setback."
+    }
+  },
+  {
+    "sim_minute": 180,
+    "controller": "deterministic_fallback",
+    "llm_status": "Ollama unavailable (URLError)",
+    "state": {
+      "engine": "physics-lite surrogate",
+      "sim_minute": 180,
+      "hour_of_day": 3.0,
+      "zone_temp_c": 22.73,
+      "outdoor_temp_c": 24.76,
+      "occupancy_fraction": 0.05,
+      "pmv": 0.07,
+      "cooling_setpoint": 27.5,
+      "heating_setpoint": 16.5,
+      "fan_flow_fraction": 0.3,
+      "instantaneous_kw": 0.02,
+      "cumulative_kwh": 0.061
+    },
+    "decision": {
+      "cooling_setpoint": 27.5,
+      "heating_setpoint": 16.5,
+      "fan_flow_fraction": 0.3,
+      "rationale": "Fallback: unoccupied setback."
+    },
+    "applied": {
+      "applied_cooling_setpoint": 27.5,
+      "applied_heating_setpoint": 16.5,
+      "applied_fan_flow_fraction": 0.3,
+      "rationale": "Fallback: unoccupied setback."
+    }
+  },
+  {
+    "sim_minute": 210,
+    "controller": "deterministic_fallback",
+    "llm_status": "Ollama unavailable (URLError)",
+    "state": {
+      "engine": "physics-lite surrogate",
+      "sim_minute": 210,
+      "hour_of_day": 3.5,
+      "zone_temp_c": 22.99,
+      "outdoor_temp_c": 25.35,
+      "occupancy_fraction": 0.05,
+      "pmv": 0.16,
+      "cooling_setpoint": 27.5,
+      "heating_setpoint": 16.5,
+      "fan_flow_fraction": 0.3,
+      "instantaneous_kw": 0.02,
+      "cumulative_kwh": 0.071
+    },
+    "decision": {
+      "cooling_setpoint": 27.5,
+      "heating_setpoint": 16.5,
+      "fan_flow_fraction": 0.3,
+      "rationale": "Fallback: unoccupied setback."
+    },
+    "applied": {
+      "applied_cooling_setpoint": 27.5,
+      "applied_heating_setpoint": 16.5,
+      "applied_fan_flow_fraction": 0.3,
+      "rationale": "Fallback: unoccupied setback."
+    }
+  },
+  {
+    "sim_minute": 240,
+    "controller": "deterministic_fallback",
+    "llm_status": "Ollama unavailable (URLError)",
+    "state": {
+      "engine": "physics-lite surrogate",
+      "sim_minute": 240,
+      "hour_of_day": 4.0,
+      "zone_temp_c": 23.22,
+      "outdoor_temp_c": 26.0,
+      "occupancy_fraction": 0.05,
+      "pmv": 0.23,
+      "cooling_setpoint": 27.5,
+      "heating_setpoint": 16.5,
+      "fan_flow_fraction": 0.3,
+      "instantaneous_kw": 0.02,
+      "cumulative_kwh": 0.081
+    },
+    "decision": {
+      "cooling_setpoint": 27.5,
+      "heating_setpoint": 16.5,
+      "fan_flow_fraction": 0.3,
+      "rationale": "Fallback: unoccupied setback."
+    },
+    "applied": {
+      "applied_cooling_setpoint": 27.5,
+      "applied_heating_setpoint": 16.5,
+      "applied_fan_flow_fraction": 0.3,
+      "rationale": "Fallback: unoccupied setback."
+    }
+  },
+  {
+    "sim_minute": 270,
+    "controller": "deterministic_fallback",
+    "llm_status": "Ollama unavailable (URLError)",
+    "state": {
+      "engine": "physics-lite surrogate",
+      "sim_minute": 270,
+      "hour_of_day": 4.5,
+      "zone_temp_c": 23.57,
+      "outdoor_temp_c": 26.7,
+      "occupancy_fraction": 0.05,
+      "pmv": 0.34,
+      "cooling_setpoint": 27.5,
+      "heating_setpoint": 16.5,
+      "fan_flow_fraction": 0.3,
+      "instantaneous_kw": 0.02,
+      "cumulative_kwh": 0.091
+    },
+    "decision": {
+      "cooling_setpoint": 27.5,
+      "heating_setpoint": 16.5,
+      "fan_flow_fraction": 0.3,
+      "rationale": "Fallback: unoccupied setback."
+    },
+    "applied": {
+      "applied_cooling_setpoint": 27.5,
+      "applied_heating_setpoint": 16.5,
+      "applied_fan_flow_fraction": 0.3,
+      "rationale": "Fallback: unoccupied setback."
+    }
+  },
+  {
+    "sim_minute": 300,
+    "controller": "deterministic_fallback",
+    "llm_status": "Ollama unavailable (URLError)",
+    "state": {
+      "engine": "physics-lite surrogate",
+      "sim_minute": 300,
+      "hour_of_day": 5.0,
+      "zone_temp_c": 23.92,
+      "outdoor_temp_c": 27.45,
+      "occupancy_fraction": 0.05,
+      "pmv": 0.46,
+      "cooling_setpoint": 27.5,
+      "heating_setpoint": 16.5,
+      "fan_flow_fraction": 0.3,
+      "instantaneous_kw": 0.02,
+      "cumulative_kwh": 0.101
+    },
+    "decision": {
+      "cooling_setpoint": 27.5,
+      "heating_setpoint": 16.5,
+      "fan_flow_fraction": 0.3,
+      "rationale": "Fallback: unoccupied setback."
+    },
+    "applied": {
+      "applied_cooling_setpoint": 27.5,
+      "applied_heating_setpoint": 16.5,
+      "applied_fan_flow_fraction": 0.3,
+      "rationale": "Fallback: unoccupied setback."
+    }
+  },
+  {
+    "sim_minute": 330,
+    "controller": "deterministic_fallback",
+    "llm_status": "Ollama unavailable (URLError)",
+    "state": {
+      "engine": "physics-lite surrogate",
+      "sim_minute": 330,
+      "hour_of_day": 5.5,
+      "zone_temp_c": 24.32,
+      "outdoor_temp_c": 28.22,
+      "occupancy_fraction": 0.05,
+      "pmv": 0.58,
+      "cooling_setpoint": 27.5,
+      "heating_setpoint": 16.5,
+      "fan_flow_fraction": 0.3,
+      "instantaneous_kw": 0.02,
+      "cumulative_kwh": 0.111
+    },
+    "decision": {
+      "cooling_setpoint": 27.5,
+      "heating_setpoint": 16.5,
+      "fan_flow_fraction": 0.3,
+      "rationale": "Fallback: unoccupied setback."
+    },
+    "applied": {
+      "applied_cooling_setpoint": 27.5,
+      "applied_heating_setpoint": 16.5,
+      "applied_fan_flow_fraction": 0.3,
+      "rationale": "Fallback: unoccupied setback."
+    }
+  },
+  {
+    "sim_minute": 360,
+    "controller": "deterministic_fallback",
+    "llm_status": "Ollama unavailable (URLError)",
+    "state": {
+      "engine": "physics-lite surrogate",
+      "sim_minute": 360,
+      "hour_of_day": 6.0,
+      "zone_temp_c": 24.75,
+      "outdoor_temp_c": 29.0,
+      "occupancy_fraction": 0.05,
+      "pmv": 0.72,
+      "cooling_setpoint": 27.5,
+      "heating_setpoint": 16.5,
+      "fan_flow_fraction": 0.3,
+      "instantaneous_kw": 0.02,
+      "cumulative_kwh": 0.121
+    },
+    "decision": {
+      "cooling_setpoint": 27.5,
+      "heating_setpoint": 16.5,
+      "fan_flow_fraction": 0.3,
+      "rationale": "Fallback: unoccupied setback."
+    },
+    "applied": {
+      "applied_cooling_setpoint": 27.5,
+      "applied_heating_setpoint": 16.5,
+      "applied_fan_flow_fraction": 0.3,
+      "rationale": "Fallback: unoccupied setback."
+    }
+  },
+  {
+    "sim_minute": 390,
+    "controller": "deterministic_fallback",
+    "llm_status": "Ollama unavailable (URLError)",
+    "state": {
+      "engine": "physics-lite surrogate",
+      "sim_minute": 390,
+      "hour_of_day": 6.5,
+      "zone_temp_c": 25.17,
+      "outdoor_temp_c": 29.78,
+      "occupancy_fraction": 0.05,
+      "pmv": 0.86,
+      "cooling_setpoint": 27.5,
+      "heating_setpoint": 16.5,
+      "fan_flow_fraction": 0.3,
+      "instantaneous_kw": 0.02,
+      "cumulative_kwh": 0.132
+    },
+    "decision": {
+      "cooling_setpoint": 27.5,
+      "heating_setpoint": 16.5,
+      "fan_flow_fraction": 0.3,
+      "rationale": "Fallback: unoccupied setback."
+    },
+    "applied": {
+      "applied_cooling_setpoint": 27.5,
+      "applied_heating_setpoint": 16.5,
+      "applied_fan_flow_fraction": 0.3,
+      "rationale": "Fallback: unoccupied setback."
+    }
+  },
+  {
+    "sim_minute": 420,
+    "controller": "deterministic_fallback",
+    "llm_status": "Ollama unavailable (URLError)",
+    "state": {
+      "engine": "physics-lite surrogate",
+      "sim_minute": 420,
+      "hour_of_day": 7.0,
+      "zone_temp_c": 25.68,
+      "outdoor_temp_c": 30.55,
+      "occupancy_fraction": 0.05,
+      "pmv": 1.02,
+      "cooling_setpoint": 27.5,
+      "heating_setpoint": 16.5,
+      "fan_flow_fraction": 0.3,
+      "instantaneous_kw": 0.02,
+      "cumulative_kwh": 0.142
+    },
+    "decision": {
+      "cooling_setpoint": 27.5,
+      "heating_setpoint": 16.5,
+      "fan_flow_fraction": 0.3,
+      "rationale": "Fallback: unoccupied setback."
+    },
+    "applied": {
+      "applied_cooling_setpoint": 27.5,
+      "applied_heating_setpoint": 16.5,
+      "applied_fan_flow_fraction": 0.3,
+      "rationale": "Fallback: unoccupied setback."
+    }
+  },
+  {
+    "sim_minute": 450,
+    "controller": "deterministic_fallback",
+    "llm_status": "Ollama unavailable (URLError)",
+    "state": {
+      "engine": "physics-lite surrogate",
+      "sim_minute": 450,
+      "hour_of_day": 7.5,
+      "zone_temp_c": 26.19,
+      "outdoor_temp_c": 31.3,
+      "occupancy_fraction": 0.05,
+      "pmv": 1.18,
+      "cooling_setpoint": 27.5,
+      "heating_setpoint": 16.5,
+      "fan_flow_fraction": 0.3,
+      "instantaneous_kw": 0.02,
+      "cumulative_kwh": 0.152
+    },
+    "decision": {
+      "cooling_setpoint": 27.5,
+      "heating_setpoint": 16.5,
+      "fan_flow_fraction": 0.3,
+      "rationale": "Fallback: unoccupied setback."
+    },
+    "applied": {
+      "applied_cooling_setpoint": 27.5,
+      "applied_heating_setpoint": 16.5,
+      "applied_fan_flow_fraction": 0.3,
+      "rationale": "Fallback: unoccupied setback."
+    }
+  },
+  {
+    "sim_minute": 480,
+    "controller": "deterministic_fallback",
+    "llm_status": "Ollama unavailable (URLError)",
+    "state": {
+      "engine": "physics-lite surrogate",
+      "sim_minute": 480,
+      "hour_of_day": 8.0,
+      "zone_temp_c": 26.74,
+      "outdoor_temp_c": 32.0,
+      "occupancy_fraction": 1.0,
+      "pmv": 1.36,
+      "cooling_setpoint": 27.5,
+      "heating_setpoint": 16.5,
+      "fan_flow_fraction": 0.3,
+      "instantaneous_kw": 0.02,
+      "cumulative_kwh": 0.162
+    },
+    "decision": {
+      "cooling_setpoint": 22.8,
+      "heating_setpoint": 20.5,
+      "fan_flow_fraction": 1.0,
+      "rationale": "Fallback: warm comfort edge."
+    },
+    "applied": {
+      "applied_cooling_setpoint": 22.8,
+      "applied_heating_setpoint": 20.5,
+      "applied_fan_flow_fraction": 1.0,
+      "rationale": "Fallback: warm comfort edge."
+    }
+  },
+  {
+    "sim_minute": 510,
+    "controller": "deterministic_fallback",
+    "llm_status": "Ollama unavailable (URLError)",
+    "state": {
+      "engine": "physics-lite surrogate",
+      "sim_minute": 510,
+      "hour_of_day": 8.5,
+      "zone_temp_c": 25.28,
+      "outdoor_temp_c": 32.65,
+      "occupancy_fraction": 1.0,
+      "pmv": 0.89,
+      "cooling_setpoint": 22.8,
+      "heating_setpoint": 20.5,
+      "fan_flow_fraction": 1.0,
+      "instantaneous_kw": 6.75,
+      "cumulative_kwh": 3.537
+    },
+    "decision": {
+      "cooling_setpoint": 22.8,
+      "heating_setpoint": 20.5,
+      "fan_flow_fraction": 1.0,
+      "rationale": "Fallback: warm comfort edge."
+    },
+    "applied": {
+      "applied_cooling_setpoint": 22.8,
+      "applied_heating_setpoint": 20.5,
+      "applied_fan_flow_fraction": 1.0,
+      "rationale": "Fallback: warm comfort edge."
+    }
+  },
+  {
+    "sim_minute": 540,
+    "controller": "deterministic_fallback",
+    "llm_status": "Ollama unavailable (URLError)",
+    "state": {
+      "engine": "physics-lite surrogate",
+      "sim_minute": 540,
+      "hour_of_day": 9.0,
+      "zone_temp_c": 24.0,
+      "outdoor_temp_c": 33.24,
+      "occupancy_fraction": 1.0,
+      "pmv": 0.48,
+      "cooling_setpoint": 22.8,
+      "heating_setpoint": 20.5,
+      "fan_flow_fraction": 1.0,
+      "instantaneous_kw": 6.75,
+      "cumulative_kwh": 6.912
+    },
+    "decision": {
+      "cooling_setpoint": 22.8,
+      "heating_setpoint": 20.5,
+      "fan_flow_fraction": 1.0,
+      "rationale": "Fallback: warm comfort edge."
+    },
+    "applied": {
+      "applied_cooling_setpoint": 22.8,
+      "applied_heating_setpoint": 20.5,
+      "applied_fan_flow_fraction": 1.0,
+      "rationale": "Fallback: warm comfort edge."
+    }
+  },
+  {
+    "sim_minute": 570,
+    "controller": "deterministic_fallback",
+    "llm_status": "Ollama unavailable (URLError)",
+    "state": {
+      "engine": "physics-lite surrogate",
+      "sim_minute": 570,
+      "hour_of_day": 9.5,
+      "zone_temp_c": 23.81,
+      "outdoor_temp_c": 33.76,
+      "occupancy_fraction": 1.0,
+      "pmv": 0.42,
+      "cooling_setpoint": 22.8,
+      "heating_setpoint": 20.5,
+      "fan_flow_fraction": 1.0,
+      "instantaneous_kw": 4.414,
+      "cumulative_kwh": 9.257
+    },
+    "decision": {
+      "cooling_setpoint": 23.0,
+      "heating_setpoint": 19.5,
+      "fan_flow_fraction": 0.6,
+      "rationale": "Fallback: comfort stable; trim fan."
+    },
+    "applied": {
+      "applied_cooling_setpoint": 23.0,
+      "applied_heating_setpoint": 19.5,
+      "applied_fan_flow_fraction": 0.6,
+      "rationale": "Fallback: comfort stable; trim fan."
+    }
+  },
+  {
+    "sim_minute": 600,
+    "controller": "deterministic_fallback",
+    "llm_status": "Ollama unavailable (URLError)",
+    "state": {
+      "engine": "physics-lite surrogate",
+      "sim_minute": 600,
+      "hour_of_day": 10.0,
+      "zone_temp_c": 24.02,
+      "outdoor_temp_c": 34.2,
+      "occupancy_fraction": 1.0,
+      "pmv": 0.49,
+      "cooling_setpoint": 23.0,
+      "heating_setpoint": 19.5,
+      "fan_flow_fraction": 0.75,
+      "instantaneous_kw": 3.67,
+      "cumulative_kwh": 10.925
+    },
+    "decision": {
+      "cooling_setpoint": 22.8,
+      "heating_setpoint": 20.5,
+      "fan_flow_fraction": 1.0,
+      "rationale": "Fallback: warm comfort edge."
+    },
+    "applied": {
+      "applied_cooling_setpoint": 22.8,
+      "applied_heating_setpoint": 20.5,
+      "applied_fan_flow_fraction": 1.0,
+      "rationale": "Fallback: warm comfort edge."
+    }
+  },
+  {
+    "sim_minute": 630,
+    "controller": "deterministic_fallback",
+    "llm_status": "Ollama unavailable (URLError)",
+    "state": {
+      "engine": "physics-lite surrogate",
+      "sim_minute": 630,
+      "hour_of_day": 10.5,
+      "zone_temp_c": 23.86,
+      "outdoor_temp_c": 34.54,
+      "occupancy_fraction": 1.0,
+      "pmv": 0.43,
+      "cooling_setpoint": 22.8,
+      "heating_setpoint": 20.5,
+      "fan_flow_fraction": 1.0,
+      "instantaneous_kw": 4.544,
+      "cumulative_kwh": 13.313
+    },
+    "decision": {
+      "cooling_setpoint": 22.8,
+      "heating_setpoint": 20.5,
+      "fan_flow_fraction": 1.0,
+      "rationale": "Fallback: warm comfort edge."
+    },
+    "applied": {
+      "applied_cooling_setpoint": 22.8,
+      "applied_heating_setpoint": 20.5,
+      "applied_fan_flow_fraction": 1.0,
+      "rationale": "Fallback: warm comfort edge."
+    }
+  },
+  {
+    "sim_minute": 660,
+    "controller": "deterministic_fallback",
+    "llm_status": "Ollama unavailable (URLError)",
+    "state": {
+      "engine": "physics-lite surrogate",
+      "sim_minute": 660,
+      "hour_of_day": 11.0,
+      "zone_temp_c": 23.9,
+      "outdoor_temp_c": 34.8,
+      "occupancy_fraction": 1.0,
+      "pmv": 0.45,
+      "cooling_setpoint": 22.8,
+      "heating_setpoint": 20.5,
+      "fan_flow_fraction": 1.0,
+      "instantaneous_kw": 4.559,
+      "cumulative_kwh": 15.565
+    },
+    "decision": {
+      "cooling_setpoint": 22.8,
+      "heating_setpoint": 20.5,
+      "fan_flow_fraction": 1.0,
+      "rationale": "Fallback: warm comfort edge."
+    },
+    "applied": {
+      "applied_cooling_setpoint": 22.8,
+      "applied_heating_setpoint": 20.5,
+      "applied_fan_flow_fraction": 1.0,
+      "rationale": "Fallback: warm comfort edge."
+    }
+  },
+  {
+    "sim_minute": 690,
+    "controller": "deterministic_fallback",
+    "llm_status": "Ollama unavailable (URLError)",
+    "state": {
+      "engine": "physics-lite surrogate",
+      "sim_minute": 690,
+      "hour_of_day": 11.5,
+      "zone_temp_c": 23.9,
+      "outdoor_temp_c": 34.95,
+      "occupancy_fraction": 1.0,
+      "pmv": 0.45,
+      "cooling_setpoint": 22.8,
+      "heating_setpoint": 20.5,
+      "fan_flow_fraction": 1.0,
+      "instantaneous_kw": 4.518,
+      "cumulative_kwh": 17.841
+    },
+    "decision": {
+      "cooling_setpoint": 22.8,
+      "heating_setpoint": 20.5,
+      "fan_flow_fraction": 1.0,
+      "rationale": "Fallback: warm comfort edge."
+    },
+    "applied": {
+      "applied_cooling_setpoint": 22.8,
+      "applied_heating_setpoint": 20.5,
+      "applied_fan_flow_fraction": 1.0,
+      "rationale": "Fallback: warm comfort edge."
+    }
+  },
+  {
+    "sim_minute": 720,
+    "controller": "deterministic_fallback",
+    "llm_status": "Ollama unavailable (URLError)",
+    "state": {
+      "engine": "physics-lite surrogate",
+      "sim_minute": 720,
+      "hour_of_day": 12.0,
+      "zone_temp_c": 23.93,
+      "outdoor_temp_c": 35.0,
+      "occupancy_fraction": 1.0,
+      "pmv": 0.46,
+      "cooling_setpoint": 22.8,
+      "heating_setpoint": 20.5,
+      "fan_flow_fraction": 1.0,
+      "instantaneous_kw": 4.604,
+      "cumulative_kwh": 20.139
+    },
+    "decision": {
+      "cooling_setpoint": 22.8,
+      "heating_setpoint": 20.5,
+      "fan_flow_fraction": 1.0,
+      "rationale": "Fallback: warm comfort edge."
+    },
+    "applied": {
+      "applied_cooling_setpoint": 22.8,
+      "applied_heating_setpoint": 20.5,
+      "applied_fan_flow_fraction": 1.0,
+      "rationale": "Fallback: warm comfort edge."
+    }
+  },
+  {
+    "sim_minute": 750,
+    "controller": "deterministic_fallback",
+    "llm_status": "Ollama unavailable (URLError)",
+    "state": {
+      "engine": "physics-lite surrogate",
+      "sim_minute": 750,
+      "hour_of_day": 12.5,
+      "zone_temp_c": 23.89,
+      "outdoor_temp_c": 34.95,
+      "occupancy_fraction": 1.0,
+      "pmv": 0.45,
+      "cooling_setpoint": 22.8,
+      "heating_setpoint": 20.5,
+      "fan_flow_fraction": 1.0,
+      "instantaneous_kw": 4.677,
+      "cumulative_kwh": 22.48
+    },
+    "decision": {
+      "cooling_setpoint": 22.8,
+      "heating_setpoint": 20.5,
+      "fan_flow_fraction": 1.0,
+      "rationale": "Fallback: warm comfort edge."
+    },
+    "applied": {
+      "applied_cooling_setpoint": 22.8,
+      "applied_heating_setpoint": 20.5,
+      "applied_fan_flow_fraction": 1.0,
+      "rationale": "Fallback: warm comfort edge."
+    }
+  },
+  {
+    "sim_minute": 780,
+    "controller": "deterministic_fallback",
+    "llm_status": "Ollama unavailable (URLError)",
+    "state": {
+      "engine": "physics-lite surrogate",
+      "sim_minute": 780,
+      "hour_of_day": 13.0,
+      "zone_temp_c": 23.88,
+      "outdoor_temp_c": 34.8,
+      "occupancy_fraction": 1.0,
+      "pmv": 0.44,
+      "cooling_setpoint": 22.8,
+      "heating_setpoint": 20.5,
+      "fan_flow_fraction": 1.0,
+      "instantaneous_kw": 4.698,
+      "cumulative_kwh": 24.8
+    },
+    "decision": {
+      "cooling_setpoint": 22.8,
+      "heating_setpoint": 20.5,
+      "fan_flow_fraction": 1.0,
+      "rationale": "Fallback: warm comfort edge."
+    },
+    "applied": {
+      "applied_cooling_setpoint": 22.8,
+      "applied_heating_setpoint": 20.5,
+      "applied_fan_flow_fraction": 1.0,
+      "rationale": "Fallback: warm comfort edge."
+    }
+  },
+  {
+    "sim_minute": 810,
+    "controller": "deterministic_fallback",
+    "llm_status": "Ollama unavailable (URLError)",
+    "state": {
+      "engine": "physics-lite surrogate",
+      "sim_minute": 810,
+      "hour_of_day": 13.5,
+      "zone_temp_c": 23.9,
+      "outdoor_temp_c": 34.54,
+      "occupancy_fraction": 1.0,
+      "pmv": 0.45,
+      "cooling_setpoint": 22.8,
+      "heating_setpoint": 20.5,
+      "fan_flow_fraction": 1.0,
+      "instantaneous_kw": 4.542,
+      "cumulative_kwh": 27.068
+    },
+    "decision": {
+      "cooling_setpoint": 22.8,
+      "heating_setpoint": 20.5,
+      "fan_flow_fraction": 1.0,
+      "rationale": "Fallback: warm comfort edge."
+    },
+    "applied": {
+      "applied_cooling_setpoint": 22.8,
+      "applied_heating_setpoint": 20.5,
+      "applied_fan_flow_fraction": 1.0,
+      "rationale": "Fallback: warm comfort edge."
+    }
+  },
+  {
+    "sim_minute": 840,
+    "controller": "deterministic_fallback",
+    "llm_status": "Ollama unavailable (URLError)",
+    "state": {
+      "engine": "physics-lite surrogate",
+      "sim_minute": 840,
+      "hour_of_day": 14.0,
+      "zone_temp_c": 23.86,
+      "outdoor_temp_c": 34.2,
+      "occupancy_fraction": 1.0,
+      "pmv": 0.44,
+      "cooling_setpoint": 22.8,
+      "heating_setpoint": 20.5,
+      "fan_flow_fraction": 1.0,
+      "instantaneous_kw": 4.455,
+      "cumulative_kwh": 29.331
+    },
+    "decision": {
+      "cooling_setpoint": 22.8,
+      "heating_setpoint": 20.5,
+      "fan_flow_fraction": 1.0,
+      "rationale": "Fallback: warm comfort edge."
+    },
+    "applied": {
+      "applied_cooling_setpoint": 22.8,
+      "applied_heating_setpoint": 20.5,
+      "applied_fan_flow_fraction": 1.0,
+      "rationale": "Fallback: warm comfort edge."
+    }
+  },
+  {
+    "sim_minute": 870,
+    "controller": "deterministic_fallback",
+    "llm_status": "Ollama unavailable (URLError)",
+    "state": {
+      "engine": "physics-lite surrogate",
+      "sim_minute": 870,
+      "hour_of_day": 14.5,
+      "zone_temp_c": 23.85,
+      "outdoor_temp_c": 33.76,
+      "occupancy_fraction": 1.0,
+      "pmv": 0.43,
+      "cooling_setpoint": 22.8,
+      "heating_setpoint": 20.5,
+      "fan_flow_fraction": 1.0,
+      "instantaneous_kw": 4.343,
+      "cumulative_kwh": 31.533
+    },
+    "decision": {
+      "cooling_setpoint": 22.8,
+      "heating_setpoint": 20.5,
+      "fan_flow_fraction": 1.0,
+      "rationale": "Fallback: warm comfort edge."
+    },
+    "applied": {
+      "applied_cooling_setpoint": 22.8,
+      "applied_heating_setpoint": 20.5,
+      "applied_fan_flow_fraction": 1.0,
+      "rationale": "Fallback: warm comfort edge."
+    }
+  },
+  {
+    "sim_minute": 900,
+    "controller": "deterministic_fallback",
+    "llm_status": "Ollama unavailable (URLError)",
+    "state": {
+      "engine": "physics-lite surrogate",
+      "sim_minute": 900,
+      "hour_of_day": 15.0,
+      "zone_temp_c": 23.82,
+      "outdoor_temp_c": 33.24,
+      "occupancy_fraction": 1.0,
+      "pmv": 0.42,
+      "cooling_setpoint": 22.8,
+      "heating_setpoint": 20.5,
+      "fan_flow_fraction": 1.0,
+      "instantaneous_kw": 4.407,
+      "cumulative_kwh": 33.738
+    },
+    "decision": {
+      "cooling_setpoint": 23.0,
+      "heating_setpoint": 19.5,
+      "fan_flow_fraction": 0.6,
+      "rationale": "Fallback: comfort stable; trim fan."
+    },
+    "applied": {
+      "applied_cooling_setpoint": 23.0,
+      "applied_heating_setpoint": 19.5,
+      "applied_fan_flow_fraction": 0.6,
+      "rationale": "Fallback: comfort stable; trim fan."
+    }
+  },
+  {
+    "sim_minute": 930,
+    "controller": "deterministic_fallback",
+    "llm_status": "Ollama unavailable (URLError)",
+    "state": {
+      "engine": "physics-lite surrogate",
+      "sim_minute": 930,
+      "hour_of_day": 15.5,
+      "zone_temp_c": 23.95,
+      "outdoor_temp_c": 32.65,
+      "occupancy_fraction": 1.0,
+      "pmv": 0.46,
+      "cooling_setpoint": 23.0,
+      "heating_setpoint": 19.5,
+      "fan_flow_fraction": 0.75,
+      "instantaneous_kw": 3.702,
+      "cumulative_kwh": 35.422
+    },
+    "decision": {
+      "cooling_setpoint": 22.8,
+      "heating_setpoint": 20.5,
+      "fan_flow_fraction": 1.0,
+      "rationale": "Fallback: warm comfort edge."
+    },
+    "applied": {
+      "applied_cooling_setpoint": 22.8,
+      "applied_heating_setpoint": 20.5,
+      "applied_fan_flow_fraction": 1.0,
+      "rationale": "Fallback: warm comfort edge."
+    }
+  },
+  {
+    "sim_minute": 960,
+    "controller": "deterministic_fallback",
+    "llm_status": "Ollama unavailable (URLError)",
+    "state": {
+      "engine": "physics-lite surrogate",
+      "sim_minute": 960,
+      "hour_of_day": 16.0,
+      "zone_temp_c": 23.75,
+      "outdoor_temp_c": 32.0,
+      "occupancy_fraction": 1.0,
+      "pmv": 0.4,
+      "cooling_setpoint": 22.8,
+      "heating_setpoint": 20.5,
+      "fan_flow_fraction": 1.0,
+      "instantaneous_kw": 4.272,
+      "cumulative_kwh": 37.684
+    },
+    "decision": {
+      "cooling_setpoint": 23.0,
+      "heating_setpoint": 19.5,
+      "fan_flow_fraction": 0.6,
+      "rationale": "Fallback: comfort stable; trim fan."
+    },
+    "applied": {
+      "applied_cooling_setpoint": 23.0,
+      "applied_heating_setpoint": 19.5,
+      "applied_fan_flow_fraction": 0.6,
+      "rationale": "Fallback: comfort stable; trim fan."
+    }
+  },
+  {
+    "sim_minute": 990,
+    "controller": "deterministic_fallback",
+    "llm_status": "Ollama unavailable (URLError)",
+    "state": {
+      "engine": "physics-lite surrogate",
+      "sim_minute": 990,
+      "hour_of_day": 16.5,
+      "zone_temp_c": 23.87,
+      "outdoor_temp_c": 31.3,
+      "occupancy_fraction": 1.0,
+      "pmv": 0.44,
+      "cooling_setpoint": 23.0,
+      "heating_setpoint": 19.5,
+      "fan_flow_fraction": 0.6,
+      "instantaneous_kw": 3.216,
+      "cumulative_kwh": 39.188
+    },
+    "decision": {
+      "cooling_setpoint": 22.8,
+      "heating_setpoint": 20.5,
+      "fan_flow_fraction": 1.0,
+      "rationale": "Fallback: warm comfort edge."
+    },
+    "applied": {
+      "applied_cooling_setpoint": 22.8,
+      "applied_heating_setpoint": 20.5,
+      "applied_fan_flow_fraction": 1.0,
+      "rationale": "Fallback: warm comfort edge."
+    }
+  },
+  {
+    "sim_minute": 1020,
+    "controller": "deterministic_fallback",
+    "llm_status": "Ollama unavailable (URLError)",
+    "state": {
+      "engine": "physics-lite surrogate",
+      "sim_minute": 1020,
+      "hour_of_day": 17.0,
+      "zone_temp_c": 23.69,
+      "outdoor_temp_c": 30.55,
+      "occupancy_fraction": 1.0,
+      "pmv": 0.38,
+      "cooling_setpoint": 22.8,
+      "heating_setpoint": 20.5,
+      "fan_flow_fraction": 1.0,
+      "instantaneous_kw": 4.005,
+      "cumulative_kwh": 41.316
+    },
+    "decision": {
+      "cooling_setpoint": 23.0,
+      "heating_setpoint": 19.5,
+      "fan_flow_fraction": 0.6,
+      "rationale": "Fallback: comfort stable; trim fan."
+    },
+    "applied": {
+      "applied_cooling_setpoint": 23.0,
+      "applied_heating_setpoint": 19.5,
+      "applied_fan_flow_fraction": 0.6,
+      "rationale": "Fallback: comfort stable; trim fan."
+    }
+  },
+  {
+    "sim_minute": 1050,
+    "controller": "deterministic_fallback",
+    "llm_status": "Ollama unavailable (URLError)",
+    "state": {
+      "engine": "physics-lite surrogate",
+      "sim_minute": 1050,
+      "hour_of_day": 17.5,
+      "zone_temp_c": 23.79,
+      "outdoor_temp_c": 29.78,
+      "occupancy_fraction": 1.0,
+      "pmv": 0.41,
+      "cooling_setpoint": 23.0,
+      "heating_setpoint": 19.5,
+      "fan_flow_fraction": 0.6,
+      "instantaneous_kw": 2.889,
+      "cumulative_kwh": 42.68
+    },
+    "decision": {
+      "cooling_setpoint": 23.0,
+      "heating_setpoint": 19.5,
+      "fan_flow_fraction": 0.6,
+      "rationale": "Fallback: comfort stable; trim fan."
+    },
+    "applied": {
+      "applied_cooling_setpoint": 23.0,
+      "applied_heating_setpoint": 19.5,
+      "applied_fan_flow_fraction": 0.6,
+      "rationale": "Fallback: comfort stable; trim fan."
+    }
+  },
+  {
+    "sim_minute": 1080,
+    "controller": "deterministic_fallback",
+    "llm_status": "Ollama unavailable (URLError)",
+    "state": {
+      "engine": "physics-lite surrogate",
+      "sim_minute": 1080,
+      "hour_of_day": 18.0,
+      "zone_temp_c": 23.74,
+      "outdoor_temp_c": 29.0,
+      "occupancy_fraction": 0.05,
+      "pmv": 0.4,
+      "cooling_setpoint": 23.0,
+      "heating_setpoint": 19.5,
+      "fan_flow_fraction": 0.6,
+      "instantaneous_kw": 2.742,
+      "cumulative_kwh": 44.098
+    },
+    "decision": {
+      "cooling_setpoint": 27.5,
+      "heating_setpoint": 16.5,
+      "fan_flow_fraction": 0.3,
+      "rationale": "Fallback: unoccupied setback."
+    },
+    "applied": {
+      "applied_cooling_setpoint": 27.5,
+      "applied_heating_setpoint": 16.5,
+      "applied_fan_flow_fraction": 0.3,
+      "rationale": "Fallback: unoccupied setback."
+    }
+  },
+  {
+    "sim_minute": 1110,
+    "controller": "deterministic_fallback",
+    "llm_status": "Ollama unavailable (URLError)",
+    "state": {
+      "engine": "physics-lite surrogate",
+      "sim_minute": 1110,
+      "hour_of_day": 18.5,
+      "zone_temp_c": 24.31,
+      "outdoor_temp_c": 28.22,
+      "occupancy_fraction": 0.05,
+      "pmv": 0.58,
+      "cooling_setpoint": 27.5,
+      "heating_setpoint": 16.5,
+      "fan_flow_fraction": 0.3,
+      "instantaneous_kw": 0.02,
+      "cumulative_kwh": 44.108
+    },
+    "decision": {
+      "cooling_setpoint": 27.5,
+      "heating_setpoint": 16.5,
+      "fan_flow_fraction": 0.3,
+      "rationale": "Fallback: unoccupied setback."
+    },
+    "applied": {
+      "applied_cooling_setpoint": 27.5,
+      "applied_heating_setpoint": 16.5,
+      "applied_fan_flow_fraction": 0.3,
+      "rationale": "Fallback: unoccupied setback."
+    }
+  },
+  {
+    "sim_minute": 1140,
+    "controller": "deterministic_fallback",
+    "llm_status": "Ollama unavailable (URLError)",
+    "state": {
+      "engine": "physics-lite surrogate",
+      "sim_minute": 1140,
+      "hour_of_day": 19.0,
+      "zone_temp_c": 24.7,
+      "outdoor_temp_c": 27.45,
+      "occupancy_fraction": 0.05,
+      "pmv": 0.7,
+      "cooling_setpoint": 27.5,
+      "heating_setpoint": 16.5,
+      "fan_flow_fraction": 0.3,
+      "instantaneous_kw": 0.02,
+      "cumulative_kwh": 44.118
+    },
+    "decision": {
+      "cooling_setpoint": 27.5,
+      "heating_setpoint": 16.5,
+      "fan_flow_fraction": 0.3,
+      "rationale": "Fallback: unoccupied setback."
+    },
+    "applied": {
+      "applied_cooling_setpoint": 27.5,
+      "applied_heating_setpoint": 16.5,
+      "applied_fan_flow_fraction": 0.3,
+      "rationale": "Fallback: unoccupied setback."
+    }
+  },
+  {
+    "sim_minute": 1170,
+    "controller": "deterministic_fallback",
+    "llm_status": "Ollama unavailable (URLError)",
+    "state": {
+      "engine": "physics-lite surrogate",
+      "sim_minute": 1170,
+      "hour_of_day": 19.5,
+      "zone_temp_c": 24.98,
+      "outdoor_temp_c": 26.7,
+      "occupancy_fraction": 0.05,
+      "pmv": 0.79,
+      "cooling_setpoint": 27.5,
+      "heating_setpoint": 16.5,
+      "fan_flow_fraction": 0.3,
+      "instantaneous_kw": 0.02,
+      "cumulative_kwh": 44.128
+    },
+    "decision": {
+      "cooling_setpoint": 27.5,
+      "heating_setpoint": 16.5,
+      "fan_flow_fraction": 0.3,
+      "rationale": "Fallback: unoccupied setback."
+    },
+    "applied": {
+      "applied_cooling_setpoint": 27.5,
+      "applied_heating_setpoint": 16.5,
+      "applied_fan_flow_fraction": 0.3,
+      "rationale": "Fallback: unoccupied setback."
+    }
+  },
+  {
+    "sim_minute": 1200,
+    "controller": "deterministic_fallback",
+    "llm_status": "Ollama unavailable (URLError)",
+    "state": {
+      "engine": "physics-lite surrogate",
+      "sim_minute": 1200,
+      "hour_of_day": 20.0,
+      "zone_temp_c": 25.13,
+      "outdoor_temp_c": 26.0,
+      "occupancy_fraction": 0.05,
+      "pmv": 0.84,
+      "cooling_setpoint": 27.5,
+      "heating_setpoint": 16.5,
+      "fan_flow_fraction": 0.3,
+      "instantaneous_kw": 0.02,
+      "cumulative_kwh": 44.138
+    },
+    "decision": {
+      "cooling_setpoint": 27.5,
+      "heating_setpoint": 16.5,
+      "fan_flow_fraction": 0.3,
+      "rationale": "Fallback: unoccupied setback."
+    },
+    "applied": {
+      "applied_cooling_setpoint": 27.5,
+      "applied_heating_setpoint": 16.5,
+      "applied_fan_flow_fraction": 0.3,
+      "rationale": "Fallback: unoccupied setback."
+    }
+  },
+  {
+    "sim_minute": 1230,
+    "controller": "deterministic_fallback",
+    "llm_status": "Ollama unavailable (URLError)",
+    "state": {
+      "engine": "physics-lite surrogate",
+      "sim_minute": 1230,
+      "hour_of_day": 20.5,
+      "zone_temp_c": 25.18,
+      "outdoor_temp_c": 25.35,
+      "occupancy_fraction": 0.05,
+      "pmv": 0.86,
+      "cooling_setpoint": 27.5,
+      "heating_setpoint": 16.5,
+      "fan_flow_fraction": 0.3,
+      "instantaneous_kw": 0.02,
+      "cumulative_kwh": 44.148
+    },
+    "decision": {
+      "cooling_setpoint": 27.5,
+      "heating_setpoint": 16.5,
+      "fan_flow_fraction": 0.3,
+      "rationale": "Fallback: unoccupied setback."
+    },
+    "applied": {
+      "applied_cooling_setpoint": 27.5,
+      "applied_heating_setpoint": 16.5,
+      "applied_fan_flow_fraction": 0.3,
+      "rationale": "Fallback: unoccupied setback."
+    }
+  },
+  {
+    "sim_minute": 1260,
+    "controller": "deterministic_fallback",
+    "llm_status": "Ollama unavailable (URLError)",
+    "state": {
+      "engine": "physics-lite surrogate",
+      "sim_minute": 1260,
+      "hour_of_day": 21.0,
+      "zone_temp_c": 25.2,
+      "outdoor_temp_c": 24.76,
+      "occupancy_fraction": 0.05,
+      "pmv": 0.86,
+      "cooling_setpoint": 27.5,
+      "heating_setpoint": 16.5,
+      "fan_flow_fraction": 0.3,
+      "instantaneous_kw": 0.02,
+      "cumulative_kwh": 44.158
+    },
+    "decision": {
+      "cooling_setpoint": 27.5,
+      "heating_setpoint": 16.5,
+      "fan_flow_fraction": 0.3,
+      "rationale": "Fallback: unoccupied setback."
+    },
+    "applied": {
+      "applied_cooling_setpoint": 27.5,
+      "applied_heating_setpoint": 16.5,
+      "applied_fan_flow_fraction": 0.3,
+      "rationale": "Fallback: unoccupied setback."
+    }
+  },
+  {
+    "sim_minute": 1290,
+    "controller": "deterministic_fallback",
+    "llm_status": "Ollama unavailable (URLError)",
+    "state": {
+      "engine": "physics-lite surrogate",
+      "sim_minute": 1290,
+      "hour_of_day": 21.5,
+      "zone_temp_c": 25.13,
+      "outdoor_temp_c": 24.24,
+      "occupancy_fraction": 0.05,
+      "pmv": 0.84,
+      "cooling_setpoint": 27.5,
+      "heating_setpoint": 16.5,
+      "fan_flow_fraction": 0.3,
+      "instantaneous_kw": 0.02,
+      "cumulative_kwh": 44.168
+    },
+    "decision": {
+      "cooling_setpoint": 27.5,
+      "heating_setpoint": 16.5,
+      "fan_flow_fraction": 0.3,
+      "rationale": "Fallback: unoccupied setback."
+    },
+    "applied": {
+      "applied_cooling_setpoint": 27.5,
+      "applied_heating_setpoint": 16.5,
+      "applied_fan_flow_fraction": 0.3,
+      "rationale": "Fallback: unoccupied setback."
+    }
+  },
+  {
+    "sim_minute": 1320,
+    "controller": "deterministic_fallback",
+    "llm_status": "Ollama unavailable (URLError)",
+    "state": {
+      "engine": "physics-lite surrogate",
+      "sim_minute": 1320,
+      "hour_of_day": 22.0,
+      "zone_temp_c": 25.07,
+      "outdoor_temp_c": 23.8,
+      "occupancy_fraction": 0.05,
+      "pmv": 0.82,
+      "cooling_setpoint": 27.5,
+      "heating_setpoint": 16.5,
+      "fan_flow_fraction": 0.3,
+      "instantaneous_kw": 0.02,
+      "cumulative_kwh": 44.179
+    },
+    "decision": {
+      "cooling_setpoint": 27.5,
+      "heating_setpoint": 16.5,
+      "fan_flow_fraction": 0.3,
+      "rationale": "Fallback: unoccupied setback."
+    },
+    "applied": {
+      "applied_cooling_setpoint": 27.5,
+      "applied_heating_setpoint": 16.5,
+      "applied_fan_flow_fraction": 0.3,
+      "rationale": "Fallback: unoccupied setback."
+    }
+  },
+  {
+    "sim_minute": 1350,
+    "controller": "deterministic_fallback",
+    "llm_status": "Ollama unavailable (URLError)",
+    "state": {
+      "engine": "physics-lite surrogate",
+      "sim_minute": 1350,
+      "hour_of_day": 22.5,
+      "zone_temp_c": 24.93,
+      "outdoor_temp_c": 23.46,
+      "occupancy_fraction": 0.05,
+      "pmv": 0.78,
+      "cooling_setpoint": 27.5,
+      "heating_setpoint": 16.5,
+      "fan_flow_fraction": 0.3,
+      "instantaneous_kw": 0.02,
+      "cumulative_kwh": 44.189
+    },
+    "decision": {
+      "cooling_setpoint": 27.5,
+      "heating_setpoint": 16.5,
+      "fan_flow_fraction": 0.3,
+      "rationale": "Fallback: unoccupied setback."
+    },
+    "applied": {
+      "applied_cooling_setpoint": 27.5,
+      "applied_heating_setpoint": 16.5,
+      "applied_fan_flow_fraction": 0.3,
+      "rationale": "Fallback: unoccupied setback."
+    }
+  },
+  {
+    "sim_minute": 1380,
+    "controller": "deterministic_fallback",
+    "llm_status": "Ollama unavailable (URLError)",
+    "state": {
+      "engine": "physics-lite surrogate",
+      "sim_minute": 1380,
+      "hour_of_day": 23.0,
+      "zone_temp_c": 24.83,
+      "outdoor_temp_c": 23.2,
+      "occupancy_fraction": 0.05,
+      "pmv": 0.75,
+      "cooling_setpoint": 27.5,
+      "heating_setpoint": 16.5,
+      "fan_flow_fraction": 0.3,
+      "instantaneous_kw": 0.02,
+      "cumulative_kwh": 44.199
+    },
+    "decision": {
+      "cooling_setpoint": 27.5,
+      "heating_setpoint": 16.5,
+      "fan_flow_fraction": 0.3,
+      "rationale": "Fallback: unoccupied setback."
+    },
+    "applied": {
+      "applied_cooling_setpoint": 27.5,
+      "applied_heating_setpoint": 16.5,
+      "applied_fan_flow_fraction": 0.3,
+      "rationale": "Fallback: unoccupied setback."
+    }
+  },
+  {
+    "sim_minute": 1410,
+    "controller": "deterministic_fallback",
+    "llm_status": "Ollama unavailable (URLError)",
+    "state": {
+      "engine": "physics-lite surrogate",
+      "sim_minute": 1410,
+      "hour_of_day": 23.5,
+      "zone_temp_c": 24.73,
+      "outdoor_temp_c": 23.05,
+      "occupancy_fraction": 0.05,
+      "pmv": 0.71,
+      "cooling_setpoint": 27.5,
+      "heating_setpoint": 16.5,
+      "fan_flow_fraction": 0.3,
+      "instantaneous_kw": 0.02,
+      "cumulative_kwh": 44.209
+    },
+    "decision": {
+      "cooling_setpoint": 27.5,
+      "heating_setpoint": 16.5,
+      "fan_flow_fraction": 0.3,
+      "rationale": "Fallback: unoccupied setback."
+    },
+    "applied": {
+      "applied_cooling_setpoint": 27.5,
+      "applied_heating_setpoint": 16.5,
+      "applied_fan_flow_fraction": 0.3,
+      "rationale": "Fallback: unoccupied setback."
+    }
+  }
+]

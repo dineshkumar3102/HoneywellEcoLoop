@@ -1,0 +1,13 @@
+{
+  "generated_at_utc": "2026-07-26T17:45:44+00:00",
+  "simulation_engine": "physics-lite surrogate",
+  "baseline_total_kwh": 55.628,
+  "ai_driven_total_kwh": 44.219,
+  "percent_kwh_reduction": 20.51,
+  "baseline_comfort_violation_minutes": 180,
+  "ai_driven_comfort_violation_minutes": 60,
+  "llm_tool_calls_made": 144,
+  "llm_live_endpoint_used": false,
+  "llm_status": "Ollama unavailable (URLError)",
+  "mcp_transport": "in-process for this comparison; real stdio server available via src/mcp_server.py"
+}

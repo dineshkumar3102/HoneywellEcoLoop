@@ -1,0 +1,93 @@
+! ============================================================
+! BASELINE.IDF
+! Single-zone office building - baseline rule-based schedule
+! Used as the "before AI" control case for the closed-loop PoC
+! EnergyPlus Version 9.x / 22.x compatible IDD structure
+! ============================================================
+
+Version,22.2;
+
+Building,
+    HackathonOffice_Baseline,   !- Name
+    0,                          !- North Axis {deg}
+    City,                       !- Terrain
+    0.04,                       !- Loads Convergence Tolerance
+    0.4,                        !- Temperature Convergence Tolerance {deltaC}
+    FullExterior,               !- Solar Distribution
+    25,                         !- Maximum Number of Warmup Days
+    6;                          !- Minimum Number of Warmup Days
+
+Zone,
+    Zone1_Office,               !- Name
+    0, 0, 0,                    !- Origin
+    1,                          !- Type
+    1,                          !- Multiplier
+    autocalculate,              !- Ceiling Height
+    autocalculate;              !- Volume
+
+! --- Baseline HVAC setpoint schedule: FIXED rule-based, no adaptation ---
+Schedule:Compact,
+    Baseline_Cooling_Setpoint,  !- Name
+    Temperature,                !- Schedule Type Limits
+    Through: 12/31,
+    For: Weekdays,
+    Until: 08:00, 26.0,         !- deg C (setback)
+    Until: 18:00, 23.0,         !- deg C (occupied, fixed)
+    Until: 24:00, 26.0,
+    For: Weekends Holidays,
+    Until: 24:00, 27.0;
+
+Schedule:Compact,
+    Baseline_Heating_Setpoint,
+    Temperature,
+    Through: 12/31,
+    For: Weekdays,
+    Until: 08:00, 16.0,
+    Until: 18:00, 21.0,
+    Until: 24:00, 16.0,
+    For: Weekends Holidays,
+    Until: 24:00, 15.0;
+
+ThermostatSetpoint:DualSetpoint,
+    Zone1_Thermostat,
+    Baseline_Heating_Setpoint,
+    Baseline_Cooling_Setpoint;
+
+ZoneControl:Thermostat,
+    Zone1_Controller,
+    Zone1_Office,
+    Zone1_ThermostatSchedule,
+    ThermostatSetpoint:DualSetpoint,
+    Zone1_Thermostat;
+
+People,
+    Zone1_People,
+    Zone1_Office,
+    Office_Occupancy_Sched,
+    People/Area,
+    ,0.05,,0.3,,Autocalculate,ASHRAE55PMV;
+
+ElectricEquipment,
+    Zone1_Equipment,
+    Zone1_Office,
+    Office_Equip_Sched,
+    Watts/Area,
+    ,10;
+
+Lights,
+    Zone1_Lights,
+    Zone1_Office,
+    Office_Lights_Sched,
+    Watts/Area,
+    ,8;
+
+Output:Variable,*,Zone Mean Air Temperature,Timestep;
+Output:Variable,*,Zone Air System Sensible Cooling Energy,Timestep;
+Output:Variable,*,Zone Thermal Comfort Fanger Model PMV,Timestep;
+Output:Meter,Electricity:Facility,Timestep;
+
+! NOTE: This is a condensed, illustrative IDF sufficient for the PoC harness
+! (full schedules/materials/constructions omitted for brevity - the actual
+! simulation loop in src/energyplus_wrapper.py can run this via eppy/EnergyPlus
+! or fall back to the physics-lite surrogate model when the EnergyPlus binary
+! is not present on the runner, as in this hackathon sandbox).
